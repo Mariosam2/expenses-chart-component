@@ -139,16 +139,49 @@ span.balance_value {
     border-radius: 0.4rem;
 }
 
-
+/*setting properties for the screen on frontend mentor */
 .day .bar {
     width: 80%;
+    background-color: var(--soft-red);
     
    
 }
 
+.bar.mon {
+    height: 50px;
+}
+
+.bar.tue {
+    height: 100px;
+}
+
+.bar.wed {
+    height: 160px;
+    background-color: var(--cyan);
+}
+
+.bar.thu {
+    height: 90px;
+}
+
+.bar.fri {
+    height: 75px;
+}
+
+.bar.sat {
+    height: 140px;
+}
+
+.bar.sun {
+    height: 80px;
+}
+
+/* end screenshot properties */
+
 .day .bar:hover {
     opacity: 0.7;
 }
+
 
 
 .month_total {
